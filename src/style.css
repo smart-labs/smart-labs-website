@@ -1,0 +1,16 @@
+body {
+  background: #ffff;
+}
+
+h1 {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: 12pt;
+  padding: 50;
+  text-align: center;
+  paddind: 50px, 50px, 50px, 50px;
+}
