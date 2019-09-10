@@ -7,13 +7,13 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background-color: #dddddd;
+  background-color: #888888;
   color: rgba(0, 0, 0, 1);
 }
 
 div#interface {
   width: 1000px;
-  background-color: #ffffff;
+  background-color: #ffff;
   margin: -20px auto 0px auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   padding: 10px;
@@ -34,21 +34,52 @@ a:hover {
 }
 
 header#cabecalho img#icone {
+  max-width: 180px;
+  max-height: 180px;
   position: absolute;
-  left: 1050px;
-  top: 70px;
+  left: 1000px;
+  top: 80px;
+}
+
+header#parcas img#logos {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 20px;
+}
+header#parcas img#logo {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 20px;
+}
+
+header#parcas img#log {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 20px;
+}
+
+header#parcas img#lo {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 20px;
+}
+
+header#parcas img#l {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 20px;
 }
 
 header#cabecalho {
   border-bottom: 1px #606060 solid;
   height: 150px;
-  background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+  /* background: url("fotos/logo1.jpg") no-repeat 0px 80px;*/
 }
 
 header#cabecalho h1 {
   font-family: "fonteLogo", sans-serif;
-  font-size: 30pt;
-  color: #539669;
+  font-size: 35pt;
+  color: #06ddb9f6;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   padding: 0px;
   margin-bottom: 0px;
@@ -62,14 +93,46 @@ header#cabecalho h2 {
   margin-top: 0px;
 }
 
+header#alternative h3 {
+  color: #161111;
+  padding: 5px;
+}
+
+header#alternative p {
+  padding: 5px 5px 5px 5px;
+}
+
+header#parcas p {
+  padding: 5px 5px 5px 5px;
+}
+
+header#parcas h3 {
+  padding: 5px 5px 5px 5px;
+}
+
+header#alter p {
+  padding: 5px 5px 5px 5px;
+}
+
 figure.foto-legenda {
   position: relative;
   border: 8px solid white;
   box-shadow: 1px 1px 4px black;
+  box-sizing: border-box;
 }
 figure.foto-legenda img {
   width: 100%;
   height: 100%;
+}
+
+header#cabecalho img#web {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 560px;
+  top: 10px;
 }
 
 figure.foto-legenda figcaption {
@@ -110,7 +173,7 @@ nav#menu li {
 }
 
 nav#menu li:hover {
-  background-color: #606060;
+  background-color: #0f4739;
 }
 
 nav#menu h1 {

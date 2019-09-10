@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+header#cabecalho img#web {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 560px;
+  top: 10px;
+}
+
 ul#album_fotos {
   width: 700px;
   margin: 0 auto;

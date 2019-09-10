@@ -36,7 +36,7 @@ a:hover {
 header#cabecalho img#icone {
   position: absolute;
   left: 1050px;
-  top: 70px;
+  top: 60px;
 }
 
 header#cabecalho {
@@ -47,13 +47,22 @@ header#cabecalho {
 
 header#cabecalho h1 {
   font-family: "fonteLogo", sans-serif;
-  font-size: 30pt;
-  color: rgba(16, 187, 107, 0.533);
+  font-size: 35pt;
+  color: #06ddb9f6;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   padding: 0px;
   margin-bottom: 0px;
 }
 
+header#cabecalho img#web {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 560px;
+  top: 10px;
+}
 header#cabecalho h2 {
   font-family: "Titillium Web", sans-serif;
   font-size: 15pt;
