@@ -7,14 +7,18 @@
     <link rel="stylesheet" type="text/css" href="estilo.css" />
     <title>Smart Labs</title>
   </head>
-  <body>
-      <div id="interface">
+  <body onload="slide1()">
+       <div id="interface">
+          <img src="fotos/upe.png" alt="Slide show" id="banner" />
           <header id="cabecalho">
             <h1>Smart Labs</h1>
               <img id="web"src="fotos/logo.jpg">
           <h2>Laboratório de Pesquisa em Iot</h2>
           
           <img id="icone"src="fotos/upe.png">
+         
+
+          
           
 
             <nav id="menu">
@@ -27,13 +31,15 @@
             </nav>
           </header>
     <header id="alternative">
+
+     
           <h3>Internet das Coisas e o futuro</h3>
+          
     <p>
       Internet das coisas é um conceito tecnológico que surge da presença ubíqua
       de dispositivos eletrônicos conectados à internet capazes de interagir com
       o ambiente, gerar e compartilhar informações. Eletrodomésticos,
-      carros, wearables (dispositivos tecnológicos utilizados como roupa),
-      chaves, mesas, espelhos e etc. São inúmeras as possibilidades de anexar a
+      carros, wearables, chaves, mesas, espelhos e etc. São inúmeras as possibilidades de anexar a
       computação em coisas que pertençam ao cotidiano das pessoas. Potencializa
       aplicações como automação residencial, automação industrial, smart cities,
       serviços de telessaúde, entre outros. Em 2025, espera-se um impacto
@@ -47,7 +53,7 @@
   </header >
 
   <header id="alter">
-    <h3>Objetivo:</h3>
+    <h3>Objetivo</h3>
 
     <p>
       O Smart Labs foi criado com o objetivo de incetivar a
@@ -61,10 +67,13 @@
     <p>
       O Smart Labs foi criado pela iniciativa do professor Jorge Fonseca
       da Universidade de Pernambuco Campus Caruaru e é fruto de
-      uma parceria da Universidade de Pernambuco com o C.E.S.A.R(Centro de
-      Estudos Avançados do Recife), empresa situada no Porto Digital fundada por
+      uma parceria da Universidade de Pernambuco com o <a href="https://www.cesar.org.br/" target="_blank"
+      >C.E.S.A.R</a>(Centro de
+      Estudos Avançados do Recife), empresa situada no Recife antigo fundada por
       Sílvio Meira, um dos gurus da área de Tecnologia da Informação conhecido
-      mundialmente, Porto Digital, Armazém da Criatividade, Prefeitura de Caruaru e a empresa LVF
+      mundialmente, <a href="https://www.portodigital.org/home" target="_blank"
+      >Porto Digital</a>, Armazém da Criatividade, <a href="https://caruaru.pe.gov.br/" target="_blank"
+      >Prefeitura de Caruaru</a> e a empresa LVF
       emprendimentos(Shopping Difusora).
   </p>
   <img id="logos"src="fotos/armazem.png">
@@ -76,12 +85,21 @@
 
   
   </header>
-  
-    <h3>Endereços</h3>
+  <div id="branco">
+    <h3>Localização</h3>
     <p>
-      O Smart Labs está situado em dois endereços, no Armazém da Criatividade
-      que fica no Polo Caruaru e no shopping Difusora na sala 1023
-    </p>
+      O Smart Labs está situado em dois locais:
+    </p> 
+    <ul>
+      <li><strong><a href="https://www.google.com.br/maps/place/Armaz%C3%A9m+da+Criatividade/@-8.2388385,-35.9827911,17z/data=!3m1!4b1!4m5!3m4!1s0x7a9893e27e04845:0xbbb1457888723bfe!8m2!3d-8.2388385!4d-35.9806024" target="_blank"
+        >Armazem da Criatividade</a></strong>(Dentro do Pólo Caruaru) </li>
+      <li><strong><a href="https://www.google.com.br/maps/place/Shopping+Difusora/@-8.2777366,-35.9738084,17z/data=!3m1!4b1!4m5!3m4!1s0x7a98bc79e332ded:0x5690c603e53ec090!8m2!3d-8.2777366!4d-35.9716197" target="_blank"
+        >Shopping Difusora</a></strong> no 15 andar na sala 1023</li>
+    </ul>
+
+  </div>
+
+  <div id="amarelo">
     <h3>Smart Labs Team</h3>
     <p>
       Atualmente o Smart Labs possui alunos graduandos do sexto e oitavo
@@ -89,7 +107,11 @@
       aplicações de Internet das Coisas utilizando a plataforma Knot do
       C.E.S.A.R.
     </p>
-    <h3>Exemplo de Aplicações</h3>
+
+  </div>
+
+  <div id="cinza">
+      <h3>Exemplo de Aplicações</h3>
     <p>
       <strong>Smart Trash</strong> - Lixeira inteligente que tem como objetivo poder abrir de forma
       autonoma a tampa da lixeira quando alguem de aproxima da mesma, mas não só isso, o pessoal da limpeza
@@ -99,10 +121,17 @@
       muito importante em locais como hospitais em que é de extrema importancia
       a higiene para a segurança dos médicos e pacientes; 
     </p>
+  
+
+  
     <p>
       <strong>Smart Energy</strong> - Monitorar o consumo de energia em tempo real e se há
       variações de energia na rede elétrica de uma residencia, indústria e poder monitorar por meio de um Dashboard em uma página web em tempo real de qualquer lugar do mundo e poder interagir podendo por exemplo desligar todo o circuito ou circuitos parciais que vocẽ sabe que há problema. Assim você poderá evitar queimas de equipamentos, incendios e monitorar o consumo real de energia. 
       </p>
+
+    </div>
+
+    
 
    
     <footer id="rodape">
