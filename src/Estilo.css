@@ -11,8 +11,17 @@ body {
   color: rgba(0, 0, 0, 1);
 }
 
+div#interface img#banner {
+  max-width: 150px;
+  max-height: 150px;
+
+  position: absolute;
+  left: 1200px;
+  top: 20px;
+}
+
 div#interface {
-  width: 1000px;
+  width: 99%;
   background-color: #ffffff;
   margin: -20px auto 0px auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -35,7 +44,7 @@ a:hover {
 
 header#cabecalho img#icone {
   position: absolute;
-  left: 1050px;
+  left: 200px;
   top: 60px;
 }
 
@@ -47,21 +56,22 @@ header#cabecalho {
 
 header#cabecalho h1 {
   font-family: "fonteLogo", sans-serif;
-  font-size: 35pt;
+  font-size: 42pt;
   color: #06ddb9f6;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
   padding: 0px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
-header#cabecalho img#web {
+div#interface img#web {
   max-width: 100px;
   max-height: 100px;
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 560px;
-  top: 10px;
+  left: 958px;
+  top: 17px;
 }
 header#cabecalho h2 {
   font-family: "Titillium Web", sans-serif;
@@ -69,6 +79,7 @@ header#cabecalho h2 {
   color: #181313;
   padding: 0px;
   margin-top: 0px;
+  text-align: center;
 }
 
 figure.foto-legenda {
@@ -107,15 +118,16 @@ nav#menu ul {
   text-transform: uppercase;
   position: absolute;
   top: -20px;
-  left: 850px;
+  left: 150px;
 }
 
 nav#menu li {
   display: inline-block;
-  background-color: #dddddd;
+  background-color: #8b9797;
   padding: 10px;
   margin: 2px;
   transition: background-color 1s;
+  border-radius: 2rem;
 }
 
 nav#menu li:hover {

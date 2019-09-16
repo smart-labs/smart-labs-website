@@ -20,13 +20,35 @@ div#interface {
   padding: 10px;
 }
 
+div#interface img#Caruaru {
+  width: 100%;
+  max-height: 400px;
+  top: 0px;
+}
+
 div#interface img#banner {
   max-width: 150px;
   max-height: 150px;
 
   position: absolute;
   left: 1200px;
-  top: 20px;
+  top: 420px;
+}
+
+header#branco img#difusora {
+  width: 100%;
+  max-width: 600px;
+  max-height: 300px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+header#branco img#armazem {
+  width: 100%;
+  max-width: 600px;
+  max-height: 300px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 p {
@@ -50,41 +72,57 @@ header#cabecalho img#icone {
   max-height: 180px;
   position: absolute;
   left: 180px;
-  top: 50px;
+  top: 420px;
+}
+
+header#cabecalho img#iot {
+  width: 100%;
+  max-width: 550px;
+  max-height: 250px;
+  position: absolute;
+  left: 1020px;
+  top: 600px;
 }
 
 header#parcas img#logos {
   max-width: 150px;
   max-height: 150px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 header#parcas img#logo {
   max-width: 150px;
   max-height: 150px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 header#parcas img#log {
   max-width: 150px;
   max-height: 150px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 header#parcas img#lo {
   max-width: 150px;
   max-height: 150px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 header#parcas img#l {
   max-width: 150px;
   max-height: 150px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header#parcas img#logosi {
+  max-width: 150px;
+  max-height: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 header#branco h3 {
@@ -99,9 +137,9 @@ header#cabecalho {
 
 header#cabecalho h1 {
   font-family: "fonteLogo", sans-serif;
-  font-size: 35pt;
+  font-size: 42pt;
   color: #06ddb9f6;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
   padding: 0px;
   margin-bottom: 0px;
   text-align: center;
@@ -110,24 +148,24 @@ header#cabecalho h1 {
 header#cabecalho h2 {
   font-family: "Titillium Web", sans-serif;
   font-size: 15pt;
-  color: #0e0b0b;
+  color: #5d596360;
   padding: 0px;
   margin-top: 0px;
   text-align: center;
 }
 
 header#alternative h3 {
-  font-size: 12pt;
-  background-color: #2b292b;
-  color: #ffffff;
-  padding: 5px 0px 5px 10px;
+  color: #000000;
+  padding-left: 400px;
   margin: 10px 0px 10px 0px;
-  text-align: center;
-  border-radius: 2rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 header#alternative p {
   text-align: justify;
+  padding-right: 600px;
+  padding-bottom: 15px;
 }
 
 header#parcas p {
@@ -137,42 +175,30 @@ header#parcas p {
 }
 
 header#parcas h3 {
-  font-size: 12pt;
-  background-color: #2b292b;
-  color: #ffffff;
+  color: #110e0e;
   padding: 5px 0px 5px 10px;
   margin: 10px 0px 10px 0px;
   text-align: center;
-  border-radius: 2rem;
 }
 
 div#amarelo h3 {
-  font-size: 12pt;
-  background-color: #2b292b;
-  color: #ffffff;
+  color: #110e0e;
   padding: 5px 0px 5px 10px;
   margin: 10px 0px 10px 0px;
   text-align: center;
-  border-radius: 2rem;
 }
 div#cinza h3 {
-  font-size: 12pt;
-  background-color: #2b292b;
-  color: #ffffff;
+  color: #110e0e;
   padding: 5px 0px 5px 10px;
   margin: 10px 0px 10px 0px;
   text-align: center;
-  border-radius: 2rem;
 }
 
 header#alter h3 {
-  font-size: 12pt;
-  background-color: #2b292b;
-  color: #ffffff;
+  color: #110e0e;
   padding: 5px 0px 5px 10px;
   margin: 10px 0px 10px 0px;
   text-align: center;
-  border-radius: 2rem;
 }
 
 figure.foto-legenda {
@@ -181,6 +207,7 @@ figure.foto-legenda {
   box-shadow: 1px 1px 4px black;
   box-sizing: border-box;
 }
+
 figure.foto-legenda img {
   width: 100%;
   height: 100%;
@@ -192,15 +219,15 @@ div#interface img#web {
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 940px;
-  top: 15px;
+  left: 958px;
+  top: 420px;
 }
 /*
-div#interface img#inter {
+div#interface img# {
   position: absolute;
   left: 1200px;
   max-width: 200%;
-  top: 220px;
+  top: 620px;
 }
 */
 figure.foto-legenda figcaption {
@@ -217,13 +244,10 @@ figure.foto-legenda figcaption {
 }
 
 div#branco h3 {
-  font-size: 12pt;
-  background-color: #2b292b;
-  color: #ffffff;
+  color: #110e0e;
   padding: 5px 0px 5px 10px;
   margin: 10px 0px 10px 0px;
   text-align: center;
-  border-radius: 2rem;
 }
 
 div#branco p {
@@ -231,10 +255,11 @@ div#branco p {
   padding-left: 50px;
   padding-right: 50px;
 }
-
+/*
 figure.foto-legenda:hover figcaption {
   opacity: 1;
 }
+*/
 
 nav#menu {
   display: block;
@@ -250,7 +275,7 @@ nav#menu ul {
 
 nav#menu li {
   display: inline-block;
-  background-color: #2b292b;
+  background-color: #8b9797;
   padding: 10px;
   margin: 2px;
   transition: background-color 1s;
