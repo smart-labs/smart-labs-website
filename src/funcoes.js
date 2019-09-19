@@ -32,17 +32,3 @@ function slide6() {
   document.getElementById("banner").src = "fotos/react.png";
   setTimeout("slide1()", intervalo);
 }
-function alteraFoto1() {
-  document.getElementById("Caruaru").src = "fotos/caruaru3.jpg";
-  setTimeout("alteraFoto2()", intervalo);
-}
-
-function alteraFoto2() {
-  document.getElementById("Caruaru").src = "fotos/armazem3.jpeg";
-  setTimeout("alteraFoto3()", intervalo);
-}
-
-function alteraFoto3() {
-  document.getElementById("Caruaru").src = "fotos/difusora2.jpg";
-  setTimeout("alteraFoto1()", intervalo);
-}

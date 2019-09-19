@@ -7,9 +7,9 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background-color: #888888;
-  color: #2b292b;
-  text-align: left;
+  background-color: #6b6868;
+  color: #1f1c1f;
+  /*text-align: left;*/
 }
 
 div#interface {
@@ -132,7 +132,6 @@ header#branco h3 {
 header#cabecalho {
   border-bottom: 1px #606060 solid;
   height: 150px;
-  /* background: url("fotos/logo1.jpg") no-repeat 0px 80px;*/
 }
 
 header#cabecalho h1 {
@@ -148,7 +147,7 @@ header#cabecalho h1 {
 header#cabecalho h2 {
   font-family: "Titillium Web", sans-serif;
   font-size: 15pt;
-  color: #5d596360;
+  color: #000000;
   padding: 0px;
   margin-top: 0px;
   text-align: center;
@@ -156,7 +155,7 @@ header#cabecalho h2 {
 
 header#alternative h3 {
   color: #000000;
-  padding-left: 400px;
+  padding-left: 50px;
   margin: 10px 0px 10px 0px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -222,26 +221,6 @@ div#interface img#web {
   left: 958px;
   top: 420px;
 }
-/*
-div#interface img# {
-  position: absolute;
-  left: 1200px;
-  max-width: 200%;
-  top: 620px;
-}
-*/
-figure.foto-legenda figcaption {
-  opacity: 0;
-  position: absolute;
-  top: 0px;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  transition: opacity 1s;
-}
 
 div#branco h3 {
   color: #110e0e;
@@ -255,11 +234,6 @@ div#branco p {
   padding-left: 50px;
   padding-right: 50px;
 }
-/*
-figure.foto-legenda:hover figcaption {
-  opacity: 1;
-}
-*/
 
 nav#menu {
   display: block;
@@ -270,7 +244,7 @@ nav#menu ul {
   text-transform: uppercase;
   position: absolute;
   top: -20px;
-  left: 100px;
+  left: 170px;
 }
 
 nav#menu li {
@@ -295,114 +269,9 @@ nav#menu a {
   text-decoration: none;
 }
 
-nav#menu a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-section#corpo {
-  display: block;
-  width: 500px;
-  float: left;
-  border-right: 1px solid #606060;
-  padding-right: 15px;
-}
-
-article#artigo-principal h2 {
-  font-size: 12pt;
-  color: #606060;
-  background-color: #dddddd;
-  padding: 5px 0px 5px 10px;
-  margin: 10px 0px 10px 0px;
-}
-
-header#cabecalho-artigo h1 {
-  font-family: fonteLogo, sans-serif;
-  font-size: 20pt;
-  color: #606060;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
-header#cabecalho-artigo h2 {
-  font-size: 13pt;
-  color: #cecece;
-  background: #ffffff;
-  margin: 0px;
-}
-
-header#cabecalho-artigo h3 {
-  font-size: 12pt;
-  color: #606060;
-}
-.direita {
-  text-align: right;
-}
-
-table#tabelaspec {
-  border: 1px solid #606060;
-  border-spacing: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-table#tabelaspec td {
-  border: 1px solid #606060;
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-table#tabelaspec td.ce {
-  color: #ffffff;
-  background-color: #606060;
-  vertical-align: top;
-  font-weight: bold;
-}
-
-table#tabelaspec caption {
-  color: #888888;
-  font-size: 13pt;
-  font-weight: bolder;
-}
-
-table#tabelaspec td.cd {
-  background-color: #cecece;
-}
-
-table#tabelaspec caption span {
-  display: block;
-  float: right;
-  color: #000000;
-  font-size: 8pt;
-  margin-top: 10px;
-}
-aside#lateral {
-  display: block;
-  width: 350px;
-  float: right;
-  background-color: #dddddd;
-  padding: 10px;
-  margin-top: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-aside#lateral h1 {
-  font-family: "fonteLogo", sans-serif;
-  font-size: 20pt;
-  color: #606060;
-  margin-top: 0px;
-}
-
-aside#lateral h2 {
-  background-color: #606060;
-  font-size: 13pt;
-  color: #ffffff;
-  padding: 5px;
-}
-
 footer#rodape {
   clear: both;
-  border-top: 1px solid #606060;
+  border-top: 1px solid #181414;
 }
 
 footer#rodape p {
